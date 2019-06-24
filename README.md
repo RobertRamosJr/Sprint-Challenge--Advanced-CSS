@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive  websites respond to the size of the browser at any given point.No matter the size of the browser, responsive sites will adjust to a size optomized for the screen. Adaptive websites adapt to the width of the browser at specific points. Responsive is smooth when changing its size, adapative is snappier. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first vs desktop first is a design paradigm that describes building for either desktp (the largest screen size)first or mobile(the smallest) With desktop first you'll build for the largest screen and as the size gest smaller you'll take out nonessential content, while pushing more and more to the center of the screen.With mobile, it's the oppositve. You start with a small amount of essential content and add as the screen size increses. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It takes the base font size of 16px and changs it to 10px (62.5% of 16 is 10) which allows us to use 'rem' a lot easier when determing size. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing makes styling easier by giving you the ability to create chunks of reusable code for different sections of your html, that you know you'll want to use repeatedly. It cuts down on having to retype all the same code. It also allows you to split up your csss into different files based on what is being styled i.e footer and navigation would be in different files, yet may use the same chunk of code, with a few tweaks here and there. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept has to be nesting in Less. It makes CSS way easier to understand and cuts down on clutter that can happen when styling. Media queries give me a bit of trouble. A work in progress as they say. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
